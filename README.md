@@ -6,21 +6,21 @@ The project focuses on utitlizing sensor data such as fitbit, apple watch, smart
 
 We use the following configurations,
 
--Apache Spark 2.2.0
--Apache Kafka 0.10.2.11
--Scala 2.11.11
+Apache Spark 2.2.0,
+Apache Kafka 0.10.2.11,
+Scala 2.11.11
 The maven dependencies are enlisted in pom.xml.
 The configurational properties for Spark, Kafka and ML models are placed in the resources directory.
 
 # Data
 We use Kaggle's Fall detection data  (https://www.kaggle.com/pitasr/falldata) collected from wearable motion sensor units fitted to the subject's body. The data has been modified to two classes- abnormality (1) and no abnormality (0) and subsampled to prevent class imbalance. The data for train and test are located in data folder.
 ### Data description
-TIME  - monitoring time                                                         
-SL	- Sugar Level
-EEG	- EEG monitoring rate
-BP	- Blood pressure
-HR - Heart Rate
-CIRCLUATION	- Blood circulation
+TIME  - monitoring time,                                                         
+SL	- Sugar Level,
+EEG	- EEG monitoring rate,
+BP	- Blood pressure,
+HR - Heart Rate,
+CIRCLUATION	- Blood circulation,
 target
 
 # Running the code on local
